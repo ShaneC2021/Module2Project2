@@ -37,3 +37,10 @@ body
   background-color: yellowgreen;
   color: white;	
 }
+
+.oval
+{
+	border-radius: 60%;
+}
+
+.pad{padding: 80px 80px 80px 0px;}
