@@ -59,8 +59,19 @@ body
 
 .pad
 {
-	padding: 80px 40px;
+	padding: 100px 0px;
 }
+
+.marg
+{
+  margin: 0px 27px;
+}
+
+.h-marg
+{
+  margin: 20px 0px 10px;
+}
+
 .pad-2
 {
   padding: 100px 0px;
@@ -70,10 +81,7 @@ body
 {
   padding: 40px 0px;
 }
-.zero
-{
-  padding: 0;
-}
+
 
 .icn-style
 {
@@ -88,4 +96,9 @@ body
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.card:hover
+{
+  transform: scale(0.95);
 }
