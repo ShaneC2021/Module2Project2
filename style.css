@@ -7,6 +7,8 @@ body
  
 }
 
+/* background for main page */
+
 .panorama
 {
   width: 100%;
@@ -18,14 +20,35 @@ body
  background-repeat: no-repeat;
 }
 
-.bg-image
+/* background for card images */
+.backdoor
 {
-  width: 100%;
-  height: 100%;
-  background-color: red;
+  height: auto;
+  background-image: url('images/pen.jpg');
+  background-repeat: no repeat;
+  background-position: center center;
+  background-size: contain;
+  
     
 }
 
+.backdoor-2
+{
+  height: auto;
+  background-image: url('images/concert.jpg');
+  background-repeat: no repeat;
+  background-position: center center;
+  background-size: contain;
+ }
+
+.backdoor-3
+{
+  height: auto;
+  background-image: url('images/bike.jpg');
+  background-repeat: no repeat;
+  background-position: center center;
+  background-size: contain;
+ }
 
 .btn-style
 {
@@ -100,5 +123,5 @@ body
 
 .card:hover
 {
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
