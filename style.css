@@ -38,9 +38,27 @@ body
   color: white;	
 }
 
+.sec-3
+{
+	padding: 50px 100px;
+	
+}
 .oval
 {
 	border-radius: 60%;
 }
 
-.pad{padding: 80px 80px 80px 0px;}
+.pad
+{
+	padding: 80px 40px;
+}
+
+.zero
+{
+  padding: 0;
+}
+
+.icn-style
+{
+  color: yellowgreen;
+}
