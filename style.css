@@ -1,5 +1,4 @@
-body
-{
+*{
 
   box-sizing: border-box;
   margin: 0px;
@@ -7,7 +6,34 @@ body
  
 }
 
+
+     /* fonts*/
+body
+{
+  font-family: Verdana,Arial,Optima,"sans-serif";
+}
+
+h1 
+{
+  font-family:Garamond;
+  font-size: 50px;
+  padding: 10px;
+}
+
+h3,h4
+{
+  font-family: garamond;
+  font-weight: bold;
+}
+
 /* background for main page */
+
+p
+{
+  font-family: courier;
+
+  font-size: 20px;
+}
 
 .panorama
 {
@@ -16,8 +42,9 @@ body
  
  background-image: url('images/mountain.jpeg');	
  background-size: cover;
- background-position:  center center;
- background-repeat: no-repeat;
+ background-position: center center;
+ 
+ 
 }
 
 /* background for card images */
@@ -59,8 +86,11 @@ body
 
 .sec-1
 {
-  padding-top: 200px;
-
+  display: flex;
+  
+  padding: 200px 0px;
+  align-items: center;
+justify-content: center;
 }
 
 .sec-2
@@ -72,9 +102,11 @@ body
 
 .sec-3
 {
-	padding: 50px 100px;
+	padding: 50px 85px;
 
 }
+
+
 .oval
 {
 	border-radius: 60%;
@@ -124,4 +156,14 @@ body
 .card:hover
 {
   transform: scale(0.98);
+}
+
+.logo:hover
+{
+  color: red;
+}
+
+.pad-nav
+{
+  padding-left:10px;
 }
